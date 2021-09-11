@@ -119,3 +119,24 @@ table{
     background-color: var(--dark);
     border-color: #32383e;
 }
+
+@media only screen and (max-width:1024px){
+    table,thead,tbody,th,td,tr{
+        display: block;
+    }
+
+    thead tr{
+        position: absolute;
+        top: -9999;
+        left: -9999;
+    }
+
+    tr{
+        border: 1px solid var(--border);
+    }
+
+    td{
+        border: none;
+        position: relative;
+    }
+}
