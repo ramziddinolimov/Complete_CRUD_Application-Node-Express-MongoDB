@@ -218,7 +218,7 @@ table{
 }
 
 #update_user .form-group .btn,
-#app_user .form-group .btn{
+#add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
     background-color: #16db93;
