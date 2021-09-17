@@ -27,4 +27,4 @@ route.get('update_user', services.update_user);
 
 
 
-module.exports = route
+module.exports = route;
