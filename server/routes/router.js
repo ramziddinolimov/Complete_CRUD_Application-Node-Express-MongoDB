@@ -13,14 +13,14 @@ route.get('/', services.homeRoutes);
 
 /**
  * @description
- * @method GET
+ * @method post
  */
 
 route.get('add_user', services.add_user);
 
 /**
  * @description
- * @method GET
+ * @method post
  */
 
 route.get('update_user', services.update_user);
