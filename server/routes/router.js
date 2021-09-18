@@ -26,6 +26,9 @@ route.get('/add_user', services.add_user);
 
 route.get('/update_user', services.update_user);
 
+//API
+route.post('/api/users', controller.create);
+
 
 
 module.exports = route;
