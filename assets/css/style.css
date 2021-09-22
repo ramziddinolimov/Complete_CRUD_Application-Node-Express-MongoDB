@@ -106,12 +106,18 @@ table{
     margin: 0 .2em;
 }
 
+.table tr{
+    transition: background 500ms;
+    cursor: pointer;
+}
+
 .table tr:hover{
     background-color: #06d6a0;
 }
 
 .table tr:hover td>a{
     box-shadow: none;
+    
 }
 
 .table .thead-dark th{
